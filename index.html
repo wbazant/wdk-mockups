@@ -3,7 +3,7 @@
 <head>
 <meta name="generator" content=
 "HTML Tidy for HTML5 for Linux version 5.2.0">
-<title>My Data Sets</title>
+<title>Add Data Set</title>
 <meta charset="UTF-8">
 <meta name="viewport" content=
 "width=device-width, initial-scale=1">
@@ -502,6 +502,34 @@ Datasets</a>
   <!-- HERE -->
 <a class="wdk-ReactRouterLink AllDatasetsLink" href="/mbio.wbazant/app/workspace/datasets"><i class="fa fa-chevron-left  wdk-Icon"> </i>&nbsp; All My Datasets</a>
 <h1 class="UserDatasetList-Title">Add Data Set</h1>
+<h2>New Upload</h2>
+
+<h3>Name</h3>
+
+<div style="width:800px">
+<input type="input" name="q" value="" placeholder="name of the data set">
+</div>
+<h3>Summary</h3>
+<div style="width:1500px">
+<input type="input" name="q" value="" placeholder="brief summary of the data set contents">
+</div>
+<h3>Description</h3>
+<div class="wdk-DatasetParamControl"><div class="wdk-DatasetParamIdList"><textarea rows="5" cols="30" required=""></textarea></div></div>
+
+<h3>Data File</h3>
+<p>
+We accept any file in the <a href="http://biom-format.org">BIOM format</a>, either JSON-based (BIOM 1.0) or HDF5 (BIOM 2.0+).
+<br>
+<br>
+If possible, try including taxonomic information and rich sample details in your file. This will allow you to select groups of samples and create meaningful comparisons at a desired aggregation level, using our filtering and visualisation tools.
+<br>
+<br>
+To compare data in multiple files, please upload them individually, and combine them as a union of multiple searches using our strategy system.
+</p>
+<div class="wdk-DatasetParamControl"><input type="file" accept="text/*"><small><div>Maximum size 1GB. </div></small></div>
+<div style="width:400px">
+<button type="submit" class="btn">Begin Upload</button>
+</div>
 <div style="display: flex; align-items: center;">
 <div class=
 "wdk-RealTimeSearchBox wdk-RealTimeSearchBox__inactive __inactive">
