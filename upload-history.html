@@ -507,20 +507,28 @@ Datasets</a>
 <tr>
 <td>
 <div>
+  <i class="fa fa-cogs wdk-Icon"> </i>
 Tue, 26 May 2020 12:34:56 <br>
 Currently uploading: <code>my-lab-samples.biom</code><br> 
-Status: handler-unpacking 95% ...<br>
+<br>
+Status: <br>
+handler-unpacking ... 95%<br>
+<button style="margin-top:1em">Cancel this upload</button>
 </div>
 </td>
 </tr>
 <tr style="color:green;">
 <td>
-At 20.39, 11.04.2020 the file <code>my-lab-samples.biom</code> was successfully uploaded.
+  <i class="fa fa-check-circle wdk-Icon"> </i>
+Tue, 26 May 2020 11:34:56 <br>
+The file <code>my-lab-samples.biom</code> was successfully uploaded.
 </td>
 </tr>
 <tr style="color:red;">
   <td>
-At 12.01, 11.04.2020 the file <code>my-lab-samples-typo.biom</code> failed to upload with the following error:
+  <i class="fa fa-exclamation-triangle wdk-Icon"> </i>
+Tue, 26 May 2020 10:34:56 <br>
+The file <code>my-lab-samples-typo.biom</code> failed to upload with the following error:
 <pre>
 
 SyntaxError: JSON.parse: expected ',' or '}' after property value in object
@@ -535,8 +543,9 @@ SyntaxError: JSON.parse Error: Invalid character at position {0} (Edge)
 </tr>
 </tbody>
 </table>
-<a href="#">Dismiss messages</a>
-
+<div style="margin-top:2em">
+<button>Clear all messages</button>
+</div>
 
 </div>
 <div style="display: flex; align-items: center;">
