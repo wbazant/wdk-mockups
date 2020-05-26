@@ -507,9 +507,11 @@ Datasets</a>
 <tr>
 <td>
 <div>
+  <div style="color:orange;">
   <i class="fa fa-cogs wdk-Icon"> </i>
 Tue, 26 May 2020 12:34:56 <br>
-Currently uploading: <code>my-lab-samples.biom</code><br> 
+  </div>
+Currently uploading: <code>my-lab-samples-2.biom</code><br> 
 <br>
 Status: <br>
 handler-unpacking ... 95%<br>
@@ -517,18 +519,22 @@ handler-unpacking ... 95%<br>
 </div>
 </td>
 </tr>
-<tr style="color:green;">
+<tr>
 <td>
+  <div style="color:green;">
   <i class="fa fa-check-circle wdk-Icon"> </i>
 Tue, 26 May 2020 11:34:56 <br>
+  </div>
 The file <code>my-lab-samples.biom</code> was successfully uploaded.
 </td>
 </tr>
-<tr style="color:red;">
+<tr>
   <td>
+  <div style="color:red;">
   <i class="fa fa-exclamation-triangle wdk-Icon"> </i>
 Tue, 26 May 2020 10:34:56 <br>
-The file <code>my-lab-samples-typo.biom</code> failed to upload with the following error:
+  </div>
+The file <code>my-lab-samples-typo.biom</code> was rejected with the following message:
 <pre>
 
 SyntaxError: JSON.parse: expected ',' or '}' after property value in object
@@ -541,6 +547,20 @@ SyntaxError: JSON.parse Error: Invalid character at position {0} (Edge)
 </pre>
   </td>
 </tr>
+
+<tr>
+  <td>
+  <div style="color:red;">
+  <i class="fa fa-exclamation-triangle wdk-Icon"> </i>
+Tue, 26 May 2020 10:34:56 <br>
+  </div>
+The file <code>my-lab-samples-typo.biom</code> could not be uploaded.<br>
+<br>
+Please try again or contact helpdesk@microbiomedb.org.
+
+  </td>
+</tr>
+
 </tbody>
 </table>
 <div style="margin-top:2em">
